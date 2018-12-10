@@ -23,9 +23,13 @@ function logger (mssg) {
 // LOG START
 logger('Started app.js');
 
-// Define Routes
+// Define Routes    app.METHOD(PATH, HANDLER)
 app.get('/', (req, res) => res.send('This is node.js with builtin modules and express ONLY.'))
 
+// Static Routes - serve from /public folder where /public becomes root for static requests e.g. favicon.ico !
+app.use(express.static('public'));
+
+// Start the http listener
 app.listen(PORT, () => console.log(`Node.js listening on port ${PORT}!`))
 
 // LOG END
