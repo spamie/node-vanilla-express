@@ -1,7 +1,7 @@
 {
   "name": "vanilla",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is just a sandbox to test useage of node.js plus express only, before/without any other MPN modules.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +10,16 @@
   "license": "ISC",
   "engines": {
     "node": "11.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spamie/node-vanilla-express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/spamie/node-vanilla-express/issues"
+  },
+  "homepage": "https://github.com/spamie/node-vanilla-express#readme",
+  "dependencies": {
+    "express": "^4.16.4"
   }
 }

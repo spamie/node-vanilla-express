@@ -1,5 +1,6 @@
 // VANILLA node.js : javascript only plus express
 // 10/12/18 11:12 initial ver
+// 10/12/18 add express response handler to replace manual GET/POST handler
 
 // Core Modules
 const fs = require('fs');
